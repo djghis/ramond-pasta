@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Breakfast from './breakfast'
-import Lunch from './lunch'
+import Antipasti from './breakfast'
+import Pasta from './lunch'
 import HotDrinks from './hot-drinks'
 import ColdDrinks from './cold-drinks'
 
@@ -11,10 +11,10 @@ const Menu = () => {
     SelectedCategory = HotDrinks;
   } else if (menuCategory === 'coldDrinks') {
     SelectedCategory = ColdDrinks
-  } else if (menuCategory === 'breakfast') {
-    SelectedCategory = Breakfast
-  } else if (menuCategory === 'lunch') {
-    SelectedCategory = Lunch
+  } else if (menuCategory === 'antipasti') {
+    SelectedCategory = Antipasti
+  } else if (menuCategory === 'pasta') {
+    SelectedCategory = Pasta
   }
   
   return (
@@ -23,8 +23,8 @@ const Menu = () => {
       <ul className="menu-headers">
         <li className="menu-header" onClick={() => setMenuCategory('hotDrinks')}>Hot Drinks</li>
         <li className="menu-header" onClick={() => setMenuCategory('coldDrinks')}>Cold Drinks</li>
-        <li className="menu-header" onClick={() => setMenuCategory('breakfast')}>Breakfast</li>
-        <li className="menu-header" onClick={() => setMenuCategory('lunch')} >Lunch</li>
+        <li className="menu-header" onClick={() => setMenuCategory('antipasti')}>Antipasti</li>
+        <li className="menu-header" onClick={() => setMenuCategory('pasta')} >Pasta</li>
       </ul>
       <SelectedCategory />
     </section>

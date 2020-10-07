@@ -17,7 +17,6 @@ const Instagram = () => {
         node {
           id
           likes
-          comments
           mediaType
           preview
           original
@@ -38,7 +37,7 @@ const Instagram = () => {
   return (
     <div className="insta">
       <h2>INSTAGRAM</h2>
-      <span>@kelvinpocketcafe</span>
+      <span>@ggdev_elopment</span>
       <ul className="insta-posts">
           {instaPosts.map(({ node }) => {
             return (

@@ -19,7 +19,7 @@ return (
     </section>
     <section className="container">
       <span className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Find us on <a href='https://just-eat.co.uk' target="_blank" rel="noopener norefferer">Just Eat</a>
       </span>
       <div className="gallery-grid">
         <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>
@@ -27,8 +27,8 @@ return (
         <Img fluid={data.coffeePortrait.childImageSharp.fluid} className="gallery-img3"/>
       </div>
       <div className="about-grid">
-        <h2>WE'RE CRAZY ABOUT COFFEE</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>We Love Fresh Pasta</h2>
+        <p>We have studied pasta for years and years and years</p>
       </div>
     </section>
     <div className="parallax"></div>
@@ -38,9 +38,9 @@ return (
     </section>
     {typeof window !== 'undefined' &&
       <LeafletMap
-        position={[55.952103, -3.196175]} // Your Coordinates
+        position={[55.9476, -3.1966]} // Your Coordinates
         zoom={18} // Zoom Level
-        markerText={"Local Cafe, 65 Park Row"} // Icon text
+        markerText={"Strada, Fresh Pasta (Ok just now It is Petit Paris)"} // Icon text
       />
     }
     <Footer />

@@ -1,13 +1,13 @@
 import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 
-const Lunch = () => {
+const Pasta = () => {
   const data = useStaticQuery(graphql`
   query {
     allContentfulMenuItem(
       filter: {
         category: {
-          title: {eq: "Lunch"}
+          title: {eq: "Pasta"}
         }
       }
     ) {
@@ -45,4 +45,4 @@ const Lunch = () => {
   )
 }
 
-export default Lunch;
+export default Pasta;

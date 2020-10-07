@@ -6,9 +6,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Cafe`,
+    title: `Strada Fresh Pasta`,
     description: `  `,
-    author: `Cristiano Crolla`,
+    author: `Gg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `kelvinpocketcafe`, // Your Instagram
+        username: `ggdev_elopment`, // Your Instagram
       },
     },
     {
