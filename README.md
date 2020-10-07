@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+  Strada Fresh pasta
 </p>
 <h1 align="center">
   Food outlet 1 page Website.
@@ -9,7 +7,7 @@
 
 ## Live Website
 
-The live website will be at (https://????????.netlify.com/). not runnign yet.
+The live website will be at (https://????????.netlify.com/). not running yet.
 
 
 
