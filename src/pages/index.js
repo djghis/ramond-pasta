@@ -19,7 +19,7 @@ return (
     </section>
     <section className="container">
       <span className="description">
-        Find us on <a href='https://just-eat.co.uk' target="_blank" rel="noopener norefferer">Just Eat</a>
+        Find us on <a href='https://just-eat.co.uk' target="_blank" rel="noopener norefferrer">Just Eat</a>
       </span>
       <div className="gallery-grid">
         <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>

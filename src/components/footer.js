@@ -18,11 +18,14 @@ const Footer = () => {
         <div className="contact">
           <h3>CONTACT</h3>
           <span>Alex</span>
-          <span>@yourSocialName</span>
+          <span>@facebook</span>
+          <span>@Insta</span>
+          <span><a href="mailto:alex@strada.com">alex@strada.com</a></span>
+          <span>To order, call <a href="tel:07899347855">07 899 347 855</a></span>
         </div>
       </section>
-      <p>Built by
-        <a href="https://github.com/djghis" target="_blank" rel="noopener noreferrer">Gg</a>
+      <p>
+        <a href="https://github.com/djghis" target="_blank" rel="noopener noreferrer">Built by Gg</a>
       </p>
     </footer>
   )
