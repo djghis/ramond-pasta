@@ -13,4 +13,8 @@ header {
   span {
     font-size: $ms-size;
   }
+
+  @media screen and (max-width: 1350px) {
+    position: static;
+  }
 }

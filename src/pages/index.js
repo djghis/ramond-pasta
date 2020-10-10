@@ -15,16 +15,16 @@ return (
   <Layout>
     <SEO title="Home" />
     <section className="hero">
-      <Img fluid={data.coffeeShop.childImageSharp.fluid} className="hero-image"/>
+      <Img fluid={data.stradaLogo.childImageSharp.fluid} className="hero-image"/>
     </section>
     <section className="container">
       <span className="description">
         Find us on <a href='https://just-eat.co.uk' target="_blank" rel="noopener noreferrer">Just Eat</a>
       </span>
       <div className="gallery-grid">
-        <Img fluid={data.latte.childImageSharp.fluid} className="gallery-img1"/>
-        <Img fluid={data.coffeeBags.childImageSharp.fluid} className="gallery-img2"/>
-        <Img fluid={data.coffeePortrait.childImageSharp.fluid} className="gallery-img3"/>
+        <Img fluid={data.pasta.childImageSharp.fluid} className="gallery-img1"/>
+        <Img fluid={data.pasta1.childImageSharp.fluid} className="gallery-img2"/>
+        <Img fluid={data.italianChef.childImageSharp.fluid} className="gallery-img3"/>
       </div>
       <div className="about-grid">
         <h2>We Love Fresh Pasta</h2>
@@ -60,16 +60,16 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    coffeeShop: file(relativePath: { eq: "coffee-shop-exterior.jpg" }) {
+    stradaLogo: file(relativePath: { eq: "background-logo.jpg" }) {
       ...fluidImage
     }
-    coffeePortrait: file(relativePath: { eq: "coffee-portrait.jpg" }) {
+    italianChef: file(relativePath: { eq: "italianChef.jpg" }) {
       ...fluidImage
     }
-    latte: file(relativePath: { eq: "latte.jpg" }) {
+    pasta: file(relativePath: { eq: "pasta.jpg" }) {
       ...fluidImage
     }
-    coffeeBags: file(relativePath: { eq: "coffee-bags.jpg" }) {
+    pasta1: file(relativePath: { eq: "pasta1.jpg" }) {
       ...fluidImage
     }
   }
