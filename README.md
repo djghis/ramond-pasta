@@ -5,9 +5,9 @@
   Food outlet 1 page Website.
 </h1>
 
-## Live Website
+## 🍝 Live Website
 
-The live website will be at (https://????????.netlify.com/). not running yet.
+The live website will be at (https://strada-pasta.netlify.app/).
 
 
 
