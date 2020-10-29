@@ -15,7 +15,7 @@ The live website will be at (https://strada-pasta.netlify.app/).
 
 ## Contentful
 The website Menu can be updated using Contentful for new categories and menu items. (including title, description and price)
-```
+
 
 
 
